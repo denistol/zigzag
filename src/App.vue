@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <h1>Hello</h1>
-    <p class="test">test color</p>
+    <headerblock />
     <!-- <div id="nav">
       <router-link to="/">Home</router-link>|
       <router-link to="/about">About</router-link>
@@ -9,6 +8,16 @@
     <router-view />
   </div>
 </template>
+
+<script>
+import headerblock from "@/components/Header.vue";
+export default {
+  name: "app",
+  components: {
+    headerblock,
+  },
+};
+</script>
 
 <style lang="sass">
 </style>

@@ -1,0 +1,31 @@
+@font-face {
+  font-family: GandhiSans-Regular;
+  src: url(src/fonts/GandhiSans-Regular.woff),
+    url(src/fonts/GandhiSans-Regular.woff2);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GandhiSans-Bold;
+  src: url(src/fonts/GandhiSans-Bold.woff),
+    url(src/fonts/GandhiSans-Bold.woff2);
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GandhiSans-Italic;
+  src: url(src/fonts/GandhiSans-Italic.woff),
+    url(src/fonts/GandhiSans-Italic.woff2);
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: GandhiSans-BoldItalic;
+  src: url(src/fonts/GandhiSans-BoldItalic.woff),
+    url(src/fonts/GandhiSans-BoldItalic.woff2);
+  font-weight: bold;
+  font-style: italic;
+}

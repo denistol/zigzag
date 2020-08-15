@@ -1,1 +1,176 @@
+.header 
+  display: flex
+  align-items: center
+  justify-content: space-between
+  padding: 30px 0
+  margin-bottom: 50px
 
+.social 
+  display: inline-block
+  padding: 0 20px
+  &__icon 
+    width: 45px;
+
+.hero
+  display: flex
+  flex-direction: column
+  justify-content: center
+
+.mokup 
+  width: 80%
+
+.heading 
+  display: flex
+  &__box 
+    margin-bottom: 100px
+    &-left 
+      width: 39%
+    &-right
+      width: 59%
+  &__title 
+    color: #14cbcd
+    font-size: 42px
+    font-family: "GandhiSans-Bold", sans-serif
+    letter-spacing: 3px
+    margin-bottom: 30px
+  &__text
+    color: #ffffff
+    letter-spacing: 2px
+    line-height: 38px
+    margin-bottom: 40px
+
+.content
+  display: flex
+  justify-content: space-between
+  align-items: center
+  margin-top: 30px
+  margin-bottom: 50px
+  &__box
+    width: 48%
+    padding: 10px
+  &:nth-child(odd)>.content__box-left
+    order: 1
+  &:nth-child(odd)>.content__box-right
+    order: -1
+  &:nth-child(even)>.content__box-left
+    order: -1
+  &:nth-child(oddeven)>.content__box-right
+    order: 1
+
+.button 
+  color: #ffffff
+  background-color: rgba(255, 196, 0, 0.9)
+
+.title
+  color: #14cbcd
+  font-size: 30px
+  text-transform: uppercase
+  letter-spacing: 2px
+  margin-bottom: 20px
+
+.text 
+  color: #ffffff
+  font-size: 20px
+  line-height: 28px
+  margin-bottom: 40px
+  padding-left: 20px
+  &__list
+    margin-bottom: 10px
+
+.video
+  width: 85%
+  border-radius: 5px
+  margin: 20px
+
+.footer 
+  padding: 20px 0
+  margin-top: 20px
+  font-size: 12px
+  font-family: Oregano, cursive
+  color: #d1d1d1
+  text-align: center
+  &__span 
+    display: block
+    & a 
+      color: #d1d1d1;
+      text-decoration: none;
+      outline: none;
+
+/* Index */
+.blocks
+  display: flex
+  align-items: center
+  justify-content: center
+  flex-wrap: wrap
+  margin-bottom: 100px
+
+.block
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  min-height: 370px
+  width: 20%
+  padding: 10px
+  margin: 10px
+  border-radius: 10px
+  background: #141622
+  text-align: center
+  cursor: pointer
+  &:hover
+    background: #352b00
+    transform: scale(1.03)
+  &__title
+    color: #14cbcd
+    font-size: 24px
+    padding: 10px
+    margin-bottom: 10px
+  &__text
+    padding: 10px
+    font-size: 18px
+    color: #ffffff
+  &__img
+    margin-bottom: 25px
+    width: 30%
+    padding: 20px
+
+.description
+  display: flex
+  justify-content: space-between
+  align-items: center
+  background: #141622
+  margin: 25px 200px
+  padding: 20px
+  margin-top: 50px
+  margin-bottom: 50px
+  border-radius: 10px
+  &__box
+    width: 48%
+    padding: 10px
+    &-right 
+      display: block
+      text-align: right
+  &__title
+    color: #14cbcd
+    font-size: 30px
+    text-transform: uppercase
+    letter-spacing: 2px
+    margin-bottom: 20px
+  &__text
+    color: #ffffff
+    font-size: 20px
+    line-height: 28px
+    margin-bottom: 40px
+    padding-left: 20px
+  &__list
+    margin-bottom: 10px
+  &__contact
+    display: flex
+    align-items: center
+    color: #ffffff
+    font-size: 20px
+    line-height: 28px
+  &__icon
+    margin: 0 15px
+  &__image
+    width: 45%

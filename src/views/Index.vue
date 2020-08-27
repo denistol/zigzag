@@ -39,28 +39,28 @@ export default {
       items_block: [
         {
           url: "#",
-          block__img: "src/assets/trading.svg",
+          block__img: "trading.svg",
           block__title: "ZigZag Web Terminal",
           block__text:
             "Trading terminal for metatrader 4 server based on manager api",
         },
         {
           url: "social_trading.html",
-          block__img: "src/assets/meeting.svg",
+          block__img: "meeting.svg",
           block__title: "ZigZag Social Trader",
           block__text:
             "Social Tradeing solution for brokers, monay anagers and traders. Can work with any mt4 brokers and accounts",
         },
         {
           url: "#",
-          block__img: "src/assets/crm.svg",
+          block__img: "crm.svg",
           block__title: "ZigZag CRM",
           block__text:
             "Sales CRM and Backoffice solution for MT4 and ther Forex Brokers",
         },
         {
           url: "#",
-          block__img: "src/assets/database.svg",
+          block__img: "database.svg",
           block__title: "ZigZag Trader",
           block__text:
             "Sales CRM and Backoffice solution for MT4 and other Forex Brokers",
@@ -74,7 +74,7 @@ export default {
             "MT4 Order Copier",
             "MT4 Custom Plugins",
           ],
-          description__image: "src/assets/mt4.svg",
+          description__image: "mt4.svg",
         },
         {
           description__title: "Custom Development",
@@ -82,7 +82,7 @@ export default {
             "ZigZag is team of proffesionals specializing in development for investment banking, crypto and forex",
             "We can help find solution best suites for you from technology perspective as well as service provides and building full brokerage topology.",
           ],
-          description__image: "src/assets/computer.svg",
+          description__image: "computer.svg",
         },
       ],
     };

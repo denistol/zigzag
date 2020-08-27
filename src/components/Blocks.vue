@@ -1,6 +1,6 @@
 <template>
   <a class="block" href="#">
-    <img class="block__img" src="@/assets/trading.svg" alt="#" />
+    <img class="block__img" :src="$getAsset('trading.svg')" alt="#" />
     <div class="block__title">{{ block__title }}</div>
     <div class="block__text">{{ block__text }}</div>
   </a>

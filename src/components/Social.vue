@@ -9,7 +9,7 @@
     </div>
     <div class="content__box content__box-right wow animate__fadeInUpBig">
       <video class="video" autoplay loop muted>
-        <source :src="video" type="video/mp4" />
+        <source :src="$getAsset(video)" type="video/mp4" />
       </video>
     </div>
   </div>

@@ -2,7 +2,7 @@
   <div class="hero">
     <div class="heading">
       <div class="heading__box heading__box-left">
-        <img class="mokup" src="@/assets/mokup.png" alt="mokup" />
+        <img class="mokup" :src="$getAsset('mokup.png')" alt="mokup" />
       </div>
       <div class="heading__box heading__box-right">
         <h1 class="heading__title">{{ title_h1 }}</h1>
@@ -45,7 +45,7 @@ export default {
             "Ability to add multiple trader/investor accounts per user.",
           ],
           button: false,
-          video: "@/assets/slide_1.mp4",
+          video: "slide_1.mp4",
         },
         {
           title: "Advanced statistic for accounts and traders",
@@ -57,7 +57,7 @@ export default {
             "Trader Rate statistic.",
           ],
           button: false,
-          video: "src/assets/slide_2.mp4",
+          video: "slide_2.mp4",
         },
         {
           title: "Top Traders page",
@@ -66,7 +66,7 @@ export default {
             "Ability to see public profile for each trader.",
           ],
           button: false,
-          video: "src/assets/slide_3.mp4",
+          video: "slide_3.mp4",
         },
         {
           title: "Ability to Follow or Modify your Portfolio",
@@ -78,7 +78,7 @@ export default {
             "Lots, trades and loose limits. When exceed orders stop to copy.",
           ],
           button: false,
-          video: "src/assets/slide_4.mp4",
+          video: "slide_4.mp4",
         },
         {
           title: "Account & Notification",
@@ -89,7 +89,7 @@ export default {
             "Email Notifications over SendGrid integration.",
           ],
           button: false,
-          video: "src/assets/slide_5.mp4",
+          video: "slide_5.mp4",
         },
         {
           title: "ZigZag CRM Integration",
@@ -98,7 +98,7 @@ export default {
             "Ability to work as client Area for CRM.",
           ],
           button: true,
-          video: "src/assets/slide_6.mp4",
+          video: "slide_6.mp4",
         },
       ],
     };

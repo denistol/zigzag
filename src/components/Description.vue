@@ -8,18 +8,18 @@
       <p class="description__contact">
         For details please contact us:
         <a href="Skype:live:sales_94558?chat">
-          <img class="social__icon description__icon" src="src/assets/skype_y.svg" alt="skype" />
+          <img class="social__icon description__icon" :src="$getAsset('skype_y.svg')" alt="skype" />
         </a>
         <a
           href="mailto:michaelGAVzigzagtraderDDOTcom"
           onclick="this.href=this.href.replace(/GAV/,'@').replace(/DDOT/,'.')"
         >
-          <img class="social__icon description__icon" src="src/assets/email_y.svg" alt="email" />
+          <img class="social__icon description__icon" :src="$getAsset('email_y.svg')" alt="email" />
         </a>
       </p>
     </div>
     <div class="description__box description__box-right">
-      <img class="description__image" :src="description__image" alt="mt4" />
+      <img class="description__image" :src="$getAsset(description__image)" alt="mt4" />
     </div>
   </div>
 </template>
